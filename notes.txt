@@ -1,0 +1,36 @@
+jenkins CI tool
+
+CI - Automated build + automated testing and Immediate feedback
+
+SDLC cycle - Plan --> code --> code review --> build --> UT --> packaging --> archiving the packages (storing the packages at one place) --> deploy at QA env --> acceptance testing -->code coverage
+
+Jira --> Git --> Sonarqube --> maven --> Junit --> war --> Nexus --> Ansible --> Senlenium --> jacco
+
+What we want - Complete automation/ No manual work
+
+Give me a tool which would
+- Integ all phases of SLDC
+- Integ all teams
+- Integ all tools
+i.e. Jenkins - Developed in JAVA - Community - Free - Opensource
+     Jenkins Enterprise by CloudBees - Paid
+     BlueOcean - Pipeline
+     JenkinsX - container
+Powered by 1000s of plugins
+- Plugins - U want to Extend a feature of product
+
+
+How jenkins works - Jenkins Architecture
+
+Human --> Web(Jenkins) --> store 
+          JAVA            XML file
+
+Human --> Jenkins Server            -->              Jenkins Node(s)
+          Jobs                                        - Linux
+          Will act as one node (master node)          - Windows
+                                                      - mac
+
+
+
+
+
